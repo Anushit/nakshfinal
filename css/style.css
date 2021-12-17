@@ -1,0 +1,247 @@
+.text-justify{
+	text-align:justify;
+}
+.error{
+	color: red;
+}
+.cms-box{
+	position: relative;
+    height: 100%;
+    vertical-align: middle;
+    margin: 0px auto;
+}
+.page-home .ApColumn .sub-title-widget{
+	color: #e01a1aed;
+}
+.block-categories .category-sub-menu li > .active{
+	color: #e01a1aed;
+	font-weight: bold;
+}
+/*.leo-megamenu .navbar-nav>li>a>.menu-title {
+   font-weight: bold;
+}
+.leo-megamenu .dropdown-menu a>.menu-title{
+	font-weight: bold;
+}*/
+.opening{
+	text-align: justify-content;
+}
+
+.service-box {
+	margin: 20px 0;
+}
+.pagination{
+	justify-content: flex-end;
+}
+.owl-carousel .owl-wrapper-outer{
+	/*display: flex;*/
+   justify-content: center;
+    font-size: 20px;
+}
+.products{
+		display: flex;
+    justify-content: center;
+}
+
+.Calibri {
+	font-family: 'Open Sans' !important;
+  font-weight: normal !important;
+}
+.read-btn {
+	display: flex;
+}
+.meta {
+	font-size: 20px;
+	font-family: 'Calibri';
+	font-weight: bold;
+	text-align: center;
+}
+.jlzTty{
+	width: 37px;
+    height: 37px;
+}
+#back-top {
+    text-align: center;
+    position: fixed;
+    cursor: pointer;
+    right: 29px;
+    bottom: -30px;
+    z-index: 99;
+    background: #e01a1aed;
+    border-radius: 50px;
+}
+
+.owl-nav{
+	display: none;
+}
+
+.pro-btn{
+	width: 70px !important;
+    object-fit: cover;
+    margin: 4px auto;
+}
+.pagination-pro {
+    display: flex !important;
+    padding-left: 0;
+    margin: 20px 0;
+    border-radius: 4px;
+    justify-content: flex-end !important;
+}
+.btn {
+       margin-bottom: 22px !important;
+     font-weight: bold !important;
+}
+.text-color{
+  color: black;
+  font-family: 'inherit';
+  font-weight: normal !important;
+}
+.header-top{
+  height: 96px;
+}
+#wrapper{
+  margin-top: 94px !important;
+}
+.dropdown-menu {
+  padding-top: 0px !important;
+}
+
+@media (max-width: 991px)
+.center-header {
+    padding: 0;
+    position: static!important;
+    padding-left: 27px;
+    padding-top: 0px !important;
+    margin: -46px auto !important;
+}
+@media (max-width: 480px)
+.col-sp-8 {
+    float: left;
+    width: 58.66667%;
+    display: none !important;
+}
+
+
+.content{
+    color:white;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform:translateY(-50%);
+  }
+.sliding-banner-container { height:100%;}
+  
+
+.test{
+  width: 240px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 12px;
+  background-color: white;
+  background-image: url('../admin/assets/img/searchicon.png');
+  background-position: right;
+  background-size: 25px 21px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  background-origin: content-box;
+  margin-right: 40px;
+
+}
+
+#header{
+    position: fixed;
+    top: 0;
+    z-index: 200;
+    width: 100%;
+    height: 96px;
+  }  
+.header-container{
+    padding: 0px !important;
+}
+
+
+
+.hero {
+    position: absolute;
+    right:-110px;
+    z-index: 3;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+      -webkit-transform: translate3d(-50%,-50%,0);
+         -moz-transform: translate3d(-50%,-50%,0);
+          -ms-transform: translate3d(-50%,-50%,0);
+           -o-transform: translate3d(-50%,-50%,0);
+              transform: translate3d(-50%,-50%,0);
+
+    top: 38%;
+    transform: translate(-50%,-50%);  
+    background-color: white;
+             
+}
+
+
+
+@media screen and (min-width: 980px){
+  .hero { 
+    /*height: 50px;*/
+  }
+
+  .hero h1 {
+    font-size: 17px;    
+    font-weight: normal;
+    color: 00000 !important;
+    margin: 0;
+    padding: 44px;
+    text-shadow: 0px 0px #ffffff;
+  }
+   .myheight{
+        min-height: 570px;
+      }
+     /* .sliding-banner-content{
+        text-align: center;
+      }*/
+
+}
+@media screen and (max-width: 640px){
+    .hero  { 
+      height: 100px;
+      width: 229px !important;
+      background:none;
+      position: relative;
+      left: 50%;
+     }
+     .hero h1 {
+        font-size: 15px;    
+        font-weight: normal;
+        color: #ffffff !important;
+        margin: 0;
+        padding: 15px;
+        
+      }
+
+      .hero a {
+        font-size: 12px;    
+      }
+      .myheight{
+        min-height: 360px;
+      }
+    
+}
+
+
+.banner {
+  margin-top: 100px
+}
+
+.error {
+    color: red;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+
+

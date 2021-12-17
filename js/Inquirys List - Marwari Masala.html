@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)http://localhost/Naksh_Website/admin/inquiry -->
+<html style="height: auto;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Inquirys List -  Marwari Masala</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="./Inquirys List - Marwari Masala_files/font-awesome.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="./Inquirys List - Marwari Masala_files/ionicons.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="./Inquirys List - Marwari Masala_files/adminlte.css">
+  <!-- iCheck -->
+  <link rel="stylesheet" href="./Inquirys List - Marwari Masala_files/blue.css">
+  <!-- Morris chart -->
+  <link rel="stylesheet" href="./Inquirys List - Marwari Masala_files/morris.css">
+  <!-- jvectormap -->
+  <link rel="stylesheet" href="./Inquirys List - Marwari Masala_files/jquery-jvectormap-1.2.2.css">
+  <!-- Date Picker -->
+  <link rel="stylesheet" href="./Inquirys List - Marwari Masala_files/datepicker3.css">
+  <!-- Daterange picker -->
+  <link rel="stylesheet" href="./Inquirys List - Marwari Masala_files/daterangepicker-bs3.css">
+  <!-- bootstrap wysihtml5 - text editor -->
+  <link rel="stylesheet" href="./Inquirys List - Marwari Masala_files/bootstrap3-wysihtml5.min.css">
+  <!-- Google Font: Source Sans Pro -->
+  <link href="./Inquirys List - Marwari Masala_files/css" rel="stylesheet">
+  <link rel="shortcut icon" type="image/x-icon" href="http://localhost/Naksh_Website/admin/assets/img/7599e729c8d29219a84d61c86ce359fb.png">
+  <!-- jQuery -->
+  <script src="./Inquirys List - Marwari Masala_files/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="./Inquirys List - Marwari Masala_files/jquery.jgrowl.min.css">
+  <link rel="stylesheet" href="./Inquirys List - Marwari Masala_files/email.multiple.css">
+
+<script src="./Inquirys List - Marwari Masala_files/jquery.jgrowl.min.js"></script>
+<script src="./Inquirys List - Marwari Masala_files/jquery.email.multiple.js"></script>
+
+
+
+
+<style type="text/css" id="notify-bootstrap">.notifyjs-bootstrap-base {
+	font-weight: bold;
+	padding: 8px 15px 8px 14px;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	background-color: #fcf8e3;
+	border: 1px solid #fbeed5;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	white-space: nowrap;
+	padding-left: 25px;
+	background-repeat: no-repeat;
+	background-position: 3px 7px;
+}
+.notifyjs-bootstrap-error {
+	color: #B94A48;
+	background-color: #F2DEDE;
+	border-color: #EED3D7;
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAtRJREFUeNqkVc1u00AQHq+dOD+0poIQfkIjalW0SEGqRMuRnHos3DjwAH0ArlyQeANOOSMeAA5VjyBxKBQhgSpVUKKQNGloFdw4cWw2jtfMOna6JOUArDTazXi/b3dm55socPqQhFka++aHBsI8GsopRJERNFlY88FCEk9Yiwf8RhgRyaHFQpPHCDmZG5oX2ui2yilkcTT1AcDsbYC1NMAyOi7zTX2Agx7A9luAl88BauiiQ/cJaZQfIpAlngDcvZZMrl8vFPK5+XktrWlx3/ehZ5r9+t6e+WVnp1pxnNIjgBe4/6dAysQc8dsmHwPcW9C0h3fW1hans1ltwJhy0GxK7XZbUlMp5Ww2eyan6+ft/f2FAqXGK4CvQk5HueFz7D6GOZtIrK+srupdx1GRBBqNBtzc2AiMr7nPplRdKhb1q6q6zjFhrklEFOUutoQ50xcX86ZlqaZpQrfbBdu2R6/G19zX6XSgh6RX5ubyHCM8nqSID6ICrGiZjGYYxojEsiw4PDwMSL5VKsC8Yf4VRYFzMzMaxwjlJSlCyAQ9l0CW44PBADzXhe7xMdi9HtTrdYjFYkDQL0cn4Xdq2/EAE+InCnvADTf2eah4Sx9vExQjkqXT6aAERICMewd/UAp/IeYANM2joxt+q5VI+ieq2i0Wg3l6DNzHwTERPgo1ko7XBXj3vdlsT2F+UuhIhYkp7u7CarkcrFOCtR3H5JiwbAIeImjT/YQKKBtGjRFCU5IUgFRe7fF4cCNVIPMYo3VKqxwjyNAXNepuopyqnld602qVsfRpEkkz+GFL1wPj6ySXBpJtWVa5xlhpcyhBNwpZHmtX8AGgfIExo0ZpzkWVTBGiXCSEaHh62/PoR0p/vHaczxXGnj4bSo+G78lELU80h1uogBwWLf5YlsPmgDEd4M236xjm+8nm4IuE/9u+/PH2JXZfbwz4zw1WbO+SQPpXfwG/BBgAhCNZiSb/pOQAAAAASUVORK5CYII=);
+}
+.notifyjs-bootstrap-success {
+	color: #468847;
+	background-color: #DFF0D8;
+	border-color: #D6E9C6;
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAutJREFUeNq0lctPE0Ecx38zu/RFS1EryqtgJFA08YCiMZIAQQ4eRG8eDGdPJiYeTIwHTfwPiAcvXIwXLwoXPaDxkWgQ6islKlJLSQWLUraPLTv7Gme32zoF9KSTfLO7v53vZ3d/M7/fIth+IO6INt2jjoA7bjHCJoAlzCRw59YwHYjBnfMPqAKWQYKjGkfCJqAF0xwZjipQtA3MxeSG87VhOOYegVrUCy7UZM9S6TLIdAamySTclZdYhFhRHloGYg7mgZv1Zzztvgud7V1tbQ2twYA34LJmF4p5dXF1KTufnE+SxeJtuCZNsLDCQU0+RyKTF27Unw101l8e6hns3u0PBalORVVVkcaEKBJDgV3+cGM4tKKmI+ohlIGnygKX00rSBfszz/n2uXv81wd6+rt1orsZCHRdr1Imk2F2Kob3hutSxW8thsd8AXNaln9D7CTfA6O+0UgkMuwVvEFFUbbAcrkcTA8+AtOk8E6KiQiDmMFSDqZItAzEVQviRkdDdaFgPp8HSZKAEAL5Qh7Sq2lIJBJwv2scUqkUnKoZgNhcDKhKg5aH+1IkcouCAdFGAQsuWZYhOjwFHQ96oagWgRoUov1T9kRBEODAwxM2QtEUl+Wp+Ln9VRo6BcMw4ErHRYjH4/B26AlQoQQTRdHWwcd9AH57+UAXddvDD37DmrBBV34WfqiXPl61g+vr6xA9zsGeM9gOdsNXkgpEtTwVvwOklXLKm6+/p5ezwk4B+j6droBs2CsGa/gNs6RIxazl4Tc25mpTgw/apPR1LYlNRFAzgsOxkyXYLIM1V8NMwyAkJSctD1eGVKiq5wWjSPdjmeTkiKvVW4f2YPHWl3GAVq6ymcyCTgovM3FzyRiDe2TaKcEKsLpJvNHjZgPNqEtyi6mZIm4SRFyLMUsONSSdkPeFtY1n0mczoY3BHTLhwPRy9/lzcziCw9ACI+yql0VLzcGAZbYSM5CCSZg1/9oc/nn7+i8N9p/8An4JMADxhH+xHfuiKwAAAABJRU5ErkJggg==);
+}
+.notifyjs-bootstrap-info {
+	color: #3A87AD;
+	background-color: #D9EDF7;
+	border-color: #BCE8F1;
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYFAhkSsdes/QAAA8dJREFUOMvVlGtMW2UYx//POaWHXg6lLaW0ypAtw1UCgbniNOLcVOLmAjHZolOYlxmTGXVZdAnRfXQm+7SoU4mXaOaiZsEpC9FkiQs6Z6bdCnNYruM6KNBw6YWewzl9z+sHImEWv+vz7XmT95f/+3/+7wP814v+efDOV3/SoX3lHAA+6ODeUFfMfjOWMADgdk+eEKz0pF7aQdMAcOKLLjrcVMVX3xdWN29/GhYP7SvnP0cWfS8caSkfHZsPE9Fgnt02JNutQ0QYHB2dDz9/pKX8QjjuO9xUxd/66HdxTeCHZ3rojQObGQBcuNjfplkD3b19Y/6MrimSaKgSMmpGU5WevmE/swa6Oy73tQHA0Rdr2Mmv/6A1n9w9suQ7097Z9lM4FlTgTDrzZTu4StXVfpiI48rVcUDM5cmEksrFnHxfpTtU/3BFQzCQF/2bYVoNbH7zmItbSoMj40JSzmMyX5qDvriA7QdrIIpA+3cdsMpu0nXI8cV0MtKXCPZev+gCEM1S2NHPvWfP/hL+7FSr3+0p5RBEyhEN5JCKYr8XnASMT0xBNyzQGQeI8fjsGD39RMPk7se2bd5ZtTyoFYXftF6y37gx7NeUtJJOTFlAHDZLDuILU3j3+H5oOrD3yWbIztugaAzgnBKJuBLpGfQrS8wO4FZgV+c1IxaLgWVU0tMLEETCos4xMzEIv9cJXQcyagIwigDGwJgOAtHAwAhisQUjy0ORGERiELgG4iakkzo4MYAxcM5hAMi1WWG1yYCJIcMUaBkVRLdGeSU2995TLWzcUAzONJ7J6FBVBYIggMzmFbvdBV44Corg8vjhzC+EJEl8U1kJtgYrhCzgc/vvTwXKSib1paRFVRVORDAJAsw5FuTaJEhWM2SHB3mOAlhkNxwuLzeJsGwqWzf5TFNdKgtY5qHp6ZFf67Y/sAVadCaVY5YACDDb3Oi4NIjLnWMw2QthCBIsVhsUTU9tvXsjeq9+X1d75/KEs4LNOfcdf/+HthMnvwxOD0wmHaXr7ZItn2wuH2SnBzbZAbPJwpPx+VQuzcm7dgRCB57a1uBzUDRL4bfnI0RE0eaXd9W89mpjqHZnUI5Hh2l2dkZZUhOqpi2qSmpOmZ64Tuu9qlz/SEXo6MEHa3wOip46F1n7633eekV8ds8Wxjn37Wl63VVa+ej5oeEZ/82ZBETJjpJ1Rbij2D3Z/1trXUvLsblCK0XfOx0SX2kMsn9dX+d+7Kf6h8o4AIykuffjT8L20LU+w4AZd5VvEPY+XpWqLV327HR7DzXuDnD8r+ovkBehJ8i+y8YAAAAASUVORK5CYII=);
+}
+.notifyjs-bootstrap-warn {
+	color: #C09853;
+	background-color: #FCF8E3;
+	border-color: #FBEED5;
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAABJlBMVEXr6eb/2oD/wi7/xjr/0mP/ykf/tQD/vBj/3o7/uQ//vyL/twebhgD/4pzX1K3z8e349vK6tHCilCWbiQymn0jGworr6dXQza3HxcKkn1vWvV/5uRfk4dXZ1bD18+/52YebiAmyr5S9mhCzrWq5t6ufjRH54aLs0oS+qD751XqPhAybhwXsujG3sm+Zk0PTwG6Shg+PhhObhwOPgQL4zV2nlyrf27uLfgCPhRHu7OmLgAafkyiWkD3l49ibiAfTs0C+lgCniwD4sgDJxqOilzDWowWFfAH08uebig6qpFHBvH/aw26FfQTQzsvy8OyEfz20r3jAvaKbhgG9q0nc2LbZxXanoUu/u5WSggCtp1anpJKdmFz/zlX/1nGJiYmuq5Dx7+sAAADoPUZSAAAAAXRSTlMAQObYZgAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfdBgUBGhh4aah5AAAAlklEQVQY02NgoBIIE8EUcwn1FkIXM1Tj5dDUQhPU502Mi7XXQxGz5uVIjGOJUUUW81HnYEyMi2HVcUOICQZzMMYmxrEyMylJwgUt5BljWRLjmJm4pI1hYp5SQLGYxDgmLnZOVxuooClIDKgXKMbN5ggV1ACLJcaBxNgcoiGCBiZwdWxOETBDrTyEFey0jYJ4eHjMGWgEAIpRFRCUt08qAAAAAElFTkSuQmCC);
+}
+</style><style type="text/css" id="core-notify">.notifyjs-corner {
+	position: fixed;
+	margin: 5px;
+	z-index: 1050;
+}
+
+.notifyjs-corner .notifyjs-wrapper,
+.notifyjs-corner .notifyjs-container {
+	position: relative;
+	display: block;
+	height: inherit;
+	width: inherit;
+	margin: 3px;
+}
+
+.notifyjs-wrapper {
+	z-index: 1;
+	position: absolute;
+	display: inline-block;
+	height: 0;
+	width: 0;
+}
+
+.notifyjs-container {
+	display: none;
+	z-index: 1;
+	position: absolute;
+}
+
+.notifyjs-hidable {
+	cursor: pointer;
+}
+
+[data-notify-text],[data-notify-html] {
+	position: relative;
+}
+
+.notifyjs-arrow {
+	position: absolute;
+	z-index: 2;
+	width: 0;
+	height: 0;
+}</style></head>
+
+<body class="sidebar-mini" style="height: auto;">
+
+<!-- Main Wrapper Start -->
+<div class="wrapper">
+
+  <!-- Navbar -->
+
+  
+  <nav class="main-header navbar navbar-expand bg-white navbar-light border-bottom">
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" data-widget="pushmenu" href="http://localhost/Naksh_Website/admin/inquiry#"><i class="fa fa-bars"></i></a>
+      </li>
+      <!-- <li class="nav-item d-none d-sm-inline-block">
+        <a href="http://localhost/Naksh_Website/admin/admin" class="nav-link">Home</a>
+      </li>  -->
+    </ul>
+
+    <!-- Right navbar links -->
+    <ul class="navbar-nav ml-auto">
+
+                <li id="dashboard" class="nav-item d-none d-sm-inline-block">  
+          <a href="http://localhost/Naksh_Website/admin/dashboard" class="nav-link">
+            <i class="nav-icon fa fa-dashboard"></i> 
+              Dashboard  
+          </a> 
+        </li>
+              <li id="profile" class="nav-item dropdown">
+      <a href="http://localhost/Naksh_Website/admin/inquiry#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="nav-icon fa fa-user"></i>&nbsp;Profile <span class="caret"></span></a>  
+      <ul class="dropdown-menu" role="menu">
+          <li class="nav-item">
+              <a href="http://localhost/Naksh_Website/admin/profile" class="nav-link"> 
+                  <p>Change Profile</p>
+              </a>
+          </li>
+          <li class="nav-item">
+              <a href="http://localhost/Naksh_Website/admin/profile/change_pwd" class="nav-link"> 
+                  <p>Change Password</p>
+              </a>
+          </li>
+      </ul>
+      </li>
+              <li id="general_settings" class="nav-item d-none d-sm-inline-block">  
+          <a href="http://localhost/Naksh_Website/admin/general_settings" class="nav-link">
+            <i class="nav-icon fa fa-cogs"></i> 
+              General Settings 
+          </a>
+        </li>
+              <li class="nav-item d-none d-sm-inline-block">
+        <a href="http://localhost/Naksh_Website/admin/logout" class="nav-link"><i class="nav-icon fa fa-lock"></i>  Logout</a>
+    </li>       
+    </ul>
+  </nav> 
+  
+  <!-- /.navbar -->  
+  <!-- Sideabr --> 
+  
+    
+
+<!-- Main Sidebar Container -->
+<aside class="main-sidebar sidebar-dark-primary elevation-4" style="min-height: 509px;">
+  <!-- Brand Logo -->
+  <a href="http://localhost/Naksh_Website/admin/admin" class="brand-link">
+    <img src="./Inquirys List - Marwari Masala_files/799b9939d108a78233f14b9920472719.png" alt="Logo" class="brand-image elevation-3" style="max-height: 45px; opacity:.9">
+    <span class="brand-text font-weight-light">&nbsp;</span>
+  </a>
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <!-- Sidebar user panel (optional) -->
+    <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+      <div class="image">
+        <img src="./Inquirys List - Marwari Masala_files/avatar01.png" class="img-circle elevation-2" alt="User Image">
+      </div>
+      <div class="info">
+        <a href="http://localhost/Naksh_Website/admin/inquiry#" class="d-block">Admin</a>
+      </div>
+    </div>
+
+    <!-- Sidebar Menu -->
+    <nav class="mt-2">
+      <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+        
+      
+                      
+        
+                <li id="cms" class="nav-item has-treeview">
+          <a href="http://localhost/Naksh_Website/admin/inquiry#" class="nav-link">
+            <i class="nav-icon fa fa-file-text-o"></i>
+            <p>
+              CMS
+              <i class="right fa fa-angle-left"></i>
+            </p>
+          </a>
+          <ul class="nav nav-treeview">
+            <li class="nav-item">
+              <a href="http://localhost/Naksh_Website/admin/cms" class="nav-link">
+                <i class="fa fa-circle-o nav-icon"></i>
+                <p>CMS List</p>
+              </a>
+            </li>
+                        <li class="nav-item">
+              <a href="http://localhost/Naksh_Website/admin/cms/add" class="nav-link">
+                <i class="fa fa-circle-o nav-icon"></i>
+                <p>Add New Page</p>
+              </a>
+            </li>
+                       </ul>
+        </li> 
+        
+                <li id="category" class="nav-item has-treeview">
+          <a href="http://localhost/Naksh_Website/admin/inquiry#" class="nav-link">
+            <i class="nav-icon fa fa-tags"></i>
+            <p>
+              Categories
+              <i class="right fa fa-angle-left"></i>
+            </p>
+          </a>
+          <ul class="nav nav-treeview">
+            <li class="nav-item">
+              <a href="http://localhost/Naksh_Website/admin/category" class="nav-link">
+                <i class="fa fa-circle-o nav-icon"></i>
+                <p>Categories List</p>
+              </a>
+            </li>
+                         <li class="nav-item">
+              <a href="http://localhost/Naksh_Website/admin/category/add" class="nav-link">
+                <i class="fa fa-circle-o nav-icon"></i>
+                <p>Add New Category</p>
+              </a>
+            </li>
+                       </ul>
+        </li> 
+        
+                <li id="product" class="nav-item has-treeview">
+          <a href="http://localhost/Naksh_Website/admin/inquiry#" class="nav-link">
+            <i class="nav-icon fa fa-shopping-basket"></i>
+            <p>
+              Products
+              <i class="right fa fa-angle-left"></i>
+            </p>
+          </a>
+          <ul class="nav nav-treeview">
+            <li class="nav-item">
+              <a href="http://localhost/Naksh_Website/admin/product" class="nav-link">
+                <i class="fa fa-circle-o nav-icon"></i>
+                <p>Products List</p>
+              </a>
+            </li>
+                        <li class="nav-item">
+              <a href="http://localhost/Naksh_Website/admin/product/add" class="nav-link">
+                <i class="fa fa-circle-o nav-icon"></i>
+                <p>Add New Product</p>
+              </a>
+            </li>
+                       </ul>
+        </li> 
+                         <li id="portfolio" class="nav-item has-treeview">
+          <a href="http://localhost/Naksh_Website/admin/inquiry#" class="nav-link">
+            <i class="nav-icon fa fa-briefcase"></i>
+            <p>
+              Portfolio
+              <i class="right fa fa-angle-left"></i>
+            </p>
+          </a>
+          <ul class="nav nav-treeview">
+            <li class="nav-item">
+              <a href="http://localhost/Naksh_Website/admin/portfolio" class="nav-link">
+                <i class="fa fa-circle-o nav-icon"></i>
+                <p>Portfolio List</p>
+              </a>
+            </li>
+                        <li class="nav-item">
+              <a href="http://localhost/Naksh_Website/admin/portfolio/add" class="nav-link">
+                <i class="fa fa-circle-o nav-icon"></i>
+                <p>Add New Portfolio</p>
+              </a>
+            </li>
+                       </ul>
+        </li> 
+        
+                <li id="service" class="nav-item has-treeview">
+          <a href="http://localhost/Naksh_Website/admin/inquiry#" class="nav-link">
+            <i class="nav-icon fa fa-server"></i>
+            <p>
+              Service
+              <i class="right fa fa-angle-left"></i>
+            </p>
+          </a>
+          <ul class="nav nav-treeview">
+            <li class="nav-item">
+              <a href="http://localhost/Naksh_Website/admin/service" class="nav-link">
+                <i class="fa fa-circle-o nav-icon"></i>
+                <p>Service List</p>
+              </a>
+            </li>
+                        <li class="nav-item">
+              <a href="http://localhost/Naksh_Website/admin/service/add" class="nav-link">
+                <i class="fa fa-circle-o nav-icon"></i>
+                <p>Add New Service</p>
+              </a>
+            </li>
+                       </ul>
+        </li> 
+        
+        
+        
+        
+        
+        
+                <li id="career" class="nav-item has-treeview">
+          <a href="http://localhost/Naksh_Website/admin/inquiry#" class="nav-link">
+            <i class="nav-icon fa fa-graduation-cap"></i>
+            <p>
+              Career
+              <i class="right fa fa-angle-left"></i>
+            </p>
+          </a>
+          <ul class="nav nav-treeview">
+            <li class="nav-item">
+              <a href="http://localhost/Naksh_Website/admin/career" class="nav-link">
+                <i class="fa fa-circle-o nav-icon"></i>
+                <p>Career List</p>
+              </a>
+            </li>
+                        <li class="nav-item">
+              <a href="http://localhost/Naksh_Website/admin/career/add" class="nav-link">
+                <i class="fa fa-circle-o nav-icon"></i>
+                <p>Add New Career</p>
+              </a>
+            </li>
+                         <li class="nav-item">
+              <a href="http://localhost/Naksh_Website/admin/career/apply_job" class="nav-link">
+                <i class="fa fa-circle-o nav-icon"></i>
+                <p>Apply Job List</p>
+              </a>
+            </li>
+          </ul>
+        </li>
+        
+        
+        
+                                
+                <li id="site_image" class="nav-item has-treeview">
+          <a href="http://localhost/Naksh_Website/admin/inquiry#" class="nav-link">
+            <i class="nav-icon fa fa-image"></i>
+            <p>
+              Manage Site Image
+              <i class="right fa fa-angle-left"></i>
+            </p>
+          </a>
+          <ul class="nav nav-treeview">
+            <li class="nav-item">
+              <a href="http://localhost/Naksh_Website/admin/site_image" class="nav-link">
+                <i class="fa fa-circle-o nav-icon"></i>
+                <p>List Site Image</p>
+              </a>
+            </li>
+          </ul>
+        </li> 
+        
+
+                 
+                <li id="banner" class="nav-item has-treeview">
+          <a href="http://localhost/Naksh_Website/admin/inquiry#" class="nav-link">
+            <i class="nav-icon fa fa-picture-o"></i>
+            <p>
+              Banners
+              <i class="right fa fa-angle-left"></i>
+            </p>
+          </a>
+          <ul class="nav nav-treeview">
+            <li class="nav-item">
+              <a href="http://localhost/Naksh_Website/admin/banner" class="nav-link">
+                <i class="fa fa-circle-o nav-icon"></i>
+                <p>Banners List</p>
+              </a>
+            </li>
+                         <li class="nav-item">
+              <a href="http://localhost/Naksh_Website/admin/banner/add" class="nav-link">
+                <i class="fa fa-circle-o nav-icon"></i>
+                <p>Add New Banner</p>
+              </a>
+            </li>
+                       </ul>
+        </li> 
+        
+                <li id="photo" class="nav-item has-treeview">
+          <a href="http://localhost/Naksh_Website/admin/inquiry#" class="nav-link">
+            <i class="nav-icon fa fa-file-image-o"></i>
+            <p>
+              Photo Gallery
+              <i class="right fa fa-angle-left"></i>
+            </p>
+          </a>
+          <ul class="nav nav-treeview">
+            <li class="nav-item">
+              <a href="http://localhost/Naksh_Website/admin/gallery/photo" class="nav-link">
+                <i class="fa fa-circle-o nav-icon"></i>
+                <p>Photo List</p>
+              </a>
+            </li>
+                         <li class="nav-item">
+              <a href="http://localhost/Naksh_Website/admin/gallery/addphoto" class="nav-link">
+                <i class="fa fa-circle-o nav-icon"></i>
+                <p>Add New Photo</p>
+              </a>
+            </li>
+                      </ul>
+        </li> 
+        
+                <li id="video" class="nav-item has-treeview">
+          <a href="http://localhost/Naksh_Website/admin/inquiry#" class="nav-link">
+            <i class="nav-icon fa fa-youtube-square"></i>
+            <p>
+              Video Gallery
+              <i class="right fa fa-angle-left"></i>
+            </p>
+          </a>
+          <ul class="nav nav-treeview">
+            <li class="nav-item">
+              <a href="http://localhost/Naksh_Website/admin/gallery/video" class="nav-link">
+                <i class="fa fa-circle-o nav-icon"></i>
+                <p>Video List</p>
+              </a>
+            </li>
+                        <li class="nav-item">
+              <a href="http://localhost/Naksh_Website/admin/gallery/addvideo" class="nav-link">
+                <i class="fa fa-circle-o nav-icon"></i>
+                <p>Add New Video</p>
+              </a>
+            </li>
+                       </ul>
+        </li> 
+        
+                <li id="inquiry" class="nav-item has-treeview menu-open">
+          <a href="http://localhost/Naksh_Website/admin/inquiry#" class="nav-link active">
+           <i class="nav-icon fa fa-question-circle"></i>
+            <p>
+               Inquires
+              <i class="right fa fa-angle-left"></i>
+            </p>
+          </a>
+          <ul class="nav nav-treeview">
+            <li class="nav-item">
+              <a href="http://localhost/Naksh_Website/admin/inquiry" class="nav-link">
+                <i class="fa fa-circle-o nav-icon"></i>
+                <p> Inquires List</p>
+              </a>
+            </li>
+            
+                        <li class="nav-item">
+              <a href="http://localhost/Naksh_Website/admin/inquiry/add" class="nav-link">
+                <i class="fa fa-circle-o nav-icon"></i>
+                <p>Add New  Inquires</p>
+              </a>
+            </li>
+
+                      </ul>
+        </li> 
+        
+                
+                                  
+         
+          
+         
+
+                  
+
+       
+  
+      </ul>
+    </nav>
+    <!-- /.sidebar-menu -->
+  </div>
+  <!-- /.sidebar -->
+</aside>
+
+<script>
+  $("#inquiry").addClass('menu-open');
+  $("#inquiry > a").addClass('active');
+</script>
+  
+  <!-- / .Sideabr -->
+<!-- DataTables -->
+<link rel="stylesheet" href="./Inquirys List - Marwari Masala_files/dataTables.bootstrap4.css"> 
+
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper" style="min-height: 509px;">
+  <section class="content">
+    <!-- For Messages -->
+    
+    <!--print error messages-->
+    
+    <!--print custom error message-->
+    
+    <!--print custom success message-->
+        <div class="card">
+      <div class="card-header">
+        <div class="d-inline-block">
+          <h3 class="card-title"><i class="fa fa-question-circle"></i>&nbsp; Inquiry List </h3>
+        </div> 
+        <div class="d-inline-block float-right">
+          <div class="btn-group margin-bottom-20"> 
+            <a href="http://localhost/Naksh_Website/admin/inquiry/create_inquiry_pdf" class="btn btn-secondary">Export as PDF</a>
+            <a href="http://localhost/Naksh_Website/admin/inquiry/export_csv" class="btn btn-secondary">Export as CSV</a>&nbsp;
+                         <a href="http://localhost/Naksh_Website/admin/inquiry/add" class="btn btn-success"><i class="fa fa-plus"></i> Add New Inquiry</a>
+                        </div> 
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="card">
+      <div class="card-body table-responsive">
+        <div id="na_datatable_wrapper" class="dataTables_wrapper container-fluid dt-bootstrap4 no-footer"><div class="row"><div class="col-sm-12 col-md-6"><div class="dataTables_length" id="na_datatable_length"><label>Show <select name="na_datatable_length" aria-controls="na_datatable" class="form-control form-control-sm"><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> entries</label></div></div><div class="col-sm-12 col-md-6"><div id="na_datatable_filter" class="dataTables_filter"><label>Search:<input type="search" class="form-control form-control-sm" placeholder="" aria-controls="na_datatable"></label></div></div></div><div class="row"><div class="col-sm-12"><table id="na_datatable" class="table table-bordered table-striped dataTable no-footer" width="100%" role="grid" aria-describedby="na_datatable_info" style="width: 100%;">
+          <thead>
+            <tr role="row"><th class="sorting" tabindex="0" aria-controls="na_datatable" rowspan="1" colspan="1" style="width: 24px;" aria-label="#ID: activate to sort column ascending">#ID</th><th class="sorting" tabindex="0" aria-controls="na_datatable" rowspan="1" colspan="1" style="width: 42px;" aria-label="Name: activate to sort column ascending">Name</th><th class="sorting" tabindex="0" aria-controls="na_datatable" rowspan="1" colspan="1" style="width: 170px;" aria-label="Email: activate to sort column ascending">Email</th><th class="sorting" tabindex="0" aria-controls="na_datatable" rowspan="1" colspan="1" style="width: 102px;" aria-label="Mobile: activate to sort column ascending">Mobile</th><th class="sorting" tabindex="0" aria-controls="na_datatable" rowspan="1" colspan="1" style="width: 80px;" aria-label="Inquiry Type: activate to sort column ascending">Inquiry Type</th><th class="sorting" tabindex="0" aria-controls="na_datatable" rowspan="1" colspan="1" style="width: 67px;" aria-label="IP Address: activate to sort column ascending">IP Address</th><th class="sorting_desc" rowspan="1" colspan="1" style="width: 102px;" aria-label="Created Date">Created Date</th><th width="100" class="text-right sorting_disabled" rowspan="1" colspan="1" style="width: 100px;" aria-label="Action">Action</th></tr>
+          </thead>
+        <tbody><tr role="row" class="odd"><td>1</td><td>akshu</td><td>anutilawat9394@gmail.com</td><td>91(.IN.) 6378240419</td><td><span>Gernal</span></td><td>127.0.0.1</td><td class="sorting_1">November 24, 2021</td><td><a title="Delete Inquiry" class="delete btn btn-sm btn-danger" onclick="return confirm(&#39;Do you want to delete ?&#39;)" href="http://localhost/Naksh_Website/admin/inquiry/delete/39"> <i class="fa fa-trash"></i></a><span onclick="Follow_up(39,1)" style="" class="btn btn-sm btn-success"><i class="fa fa-flag"></i></span><br><span onclick="Follow_up(39,0)" style="cursor:pointer;" class="btn btn-sm btn-danger"><i class="fa fa-flag"></i></span><span class="fa fa-thumbs-up" style="color:green;float:right;"></span></td></tr><tr role="row" class="even"><td>2</td><td>akshu</td><td>anutilawat9394@gmail.com</td><td>91(.IN.) 6378240419</td><td><span>Gernal</span></td><td>127.0.0.1</td><td class="sorting_1">November 24, 2021</td><td><a title="Delete Inquiry" class="delete btn btn-sm btn-danger" onclick="return confirm(&#39;Do you want to delete ?&#39;)" href="http://localhost/Naksh_Website/admin/inquiry/delete/40"> <i class="fa fa-trash"></i></a><span onclick="Follow_up(40,1)" style="cursor:pointer;" class="btn btn-sm btn-success"><i class="fa fa-flag"></i></span><br><span onclick="Follow_up(40,0)" style="cursor:pointer;" class="btn btn-sm btn-danger"><i class="fa fa-flag"></i></span><span onclick="approveRejectVideo(40,1)" style="cursor:pointer;float:right" class="btn btn-sm btn-success"> <i class="fa fa-thumbs-up"></i></span><span onclick="approveRejectVideo(40,2)" style="cursor:pointer;float:right" class="btn btn-sm btn-danger"> <i class="fa fa-thumbs-down"><!--</span--></i></span></td></tr><tr role="row" class="odd"><td>3</td><td>abc</td><td>abc@gmail.com</td><td>91 8574962356</td><td><span>Gernal</span></td><td>127.0.0.1</td><td class="sorting_1">November 24, 2021</td><td><a title="Delete Inquiry" class="delete btn btn-sm btn-danger" onclick="return confirm(&#39;Do you want to delete ?&#39;)" href="http://localhost/Naksh_Website/admin/inquiry/delete/41"> <i class="fa fa-trash"></i></a><span onclick="Follow_up(41,1)" style="cursor:pointer;" class="btn btn-sm btn-success"><i class="fa fa-flag"></i></span><br><span onclick="Follow_up(41,0)" style="cursor:pointer;" class="btn btn-sm btn-danger"><i class="fa fa-flag"></i></span><span class="fa fa-thumbs-up" style="color:green;float:right;"></span></td></tr><tr role="row" class="even"><td>4</td><td>abc</td><td>abc@gmail.com</td><td>91 8574962356</td><td><span>Gernal</span></td><td>127.0.0.1</td><td class="sorting_1">November 24, 2021</td><td><a title="Delete Inquiry" class="delete btn btn-sm btn-danger" onclick="return confirm(&#39;Do you want to delete ?&#39;)" href="http://localhost/Naksh_Website/admin/inquiry/delete/42"> <i class="fa fa-trash"></i></a><span onclick="Follow_up(42,1)" style="cursor:pointer;" class="btn btn-sm btn-success"><i class="fa fa-flag"></i></span><br><span onclick="Follow_up(42,0)" style="cursor:pointer;" class="btn btn-sm btn-danger"><i class="fa fa-flag"></i></span><span onclick="approveRejectVideo(42,1)" style="cursor:pointer;float:right" class="btn btn-sm btn-success"> <i class="fa fa-thumbs-up"></i></span><span onclick="approveRejectVideo(42,2)" style="cursor:pointer;float:right" class="btn btn-sm btn-danger"> <i class="fa fa-thumbs-down"><!--</span--></i></span></td></tr><tr role="row" class="odd"><td>5</td><td>Anusdda</td><td>anutilawat9394@gmail.com</td><td>0954981548</td><td><span>Gernal</span></td><td>127.0.0.1</td><td class="sorting_1">November 6, 2021</td><td><a title="Delete Inquiry" class="delete btn btn-sm btn-danger" onclick="return confirm(&#39;Do you want to delete ?&#39;)" href="http://localhost/Naksh_Website/admin/inquiry/delete/27"> <i class="fa fa-trash"></i></a><span onclick="Follow_up(27,1)" style="cursor:pointer;" class="btn btn-sm btn-success"><i class="fa fa-flag"></i></span><br><span onclick="Follow_up(27,0)" style="cursor:pointer;" class="btn btn-sm btn-danger"><i class="fa fa-flag"></i></span><span onclick="approveRejectVideo(27,1)" style="cursor:pointer;float:right" class="btn btn-sm btn-success"> <i class="fa fa-thumbs-up"></i></span><span onclick="approveRejectVideo(27,2)" style="cursor:pointer;float:right" class="btn btn-sm btn-danger"> <i class="fa fa-thumbs-down"><!--</span--></i></span></td></tr><tr role="row" class="even"><td>6</td><td>Anusdda</td><td>anutilawat9394@gmail.com</td><td>0954981548</td><td><span>Gernal</span></td><td>127.0.0.1</td><td class="sorting_1">November 6, 2021</td><td><a title="Delete Inquiry" class="delete btn btn-sm btn-danger" onclick="return confirm(&#39;Do you want to delete ?&#39;)" href="http://localhost/Naksh_Website/admin/inquiry/delete/28"> <i class="fa fa-trash"></i></a><span onclick="Follow_up(28,1)" style="cursor:pointer;" class="btn btn-sm btn-success"><i class="fa fa-flag"></i></span><br><span onclick="Follow_up(28,0)" style="cursor:pointer;" class="btn btn-sm btn-danger"><i class="fa fa-flag"></i></span><span class="fa fa-thumbs-up" style="color:green;float:right;"></span></td></tr><tr role="row" class="odd"><td>7</td><td>fsdfsf</td><td>sgsgs@gmail.com</td><td>6378240419</td><td><span>Gernal</span></td><td>127.0.0.1</td><td class="sorting_1">November 6, 2021</td><td><a title="Delete Inquiry" class="delete btn btn-sm btn-danger" onclick="return confirm(&#39;Do you want to delete ?&#39;)" href="http://localhost/Naksh_Website/admin/inquiry/delete/29"> <i class="fa fa-trash"></i></a><span onclick="Follow_up(29,1)" style="cursor:pointer;" class="btn btn-sm btn-success"><i class="fa fa-flag"></i></span><br><span onclick="Follow_up(29,0)" style="cursor:pointer;" class="btn btn-sm btn-danger"><i class="fa fa-flag"></i></span><span class="fa fa-thumbs-down" style="color:red;float:right"></span></td></tr><tr role="row" class="even"><td>8</td><td>Anu</td><td>anutilawat9394@gmail.com</td><td>0954981548</td><td><span>Gernal</span></td><td>127.0.0.1</td><td class="sorting_1">October 29, 2021</td><td><a title="Delete Inquiry" class="delete btn btn-sm btn-danger" onclick="return confirm(&#39;Do you want to delete ?&#39;)" href="http://localhost/Naksh_Website/admin/inquiry/delete/21"> <i class="fa fa-trash"></i></a><span onclick="Follow_up(21,1)" style="cursor:pointer;" class="btn btn-sm btn-success"><i class="fa fa-flag"></i></span><br><span onclick="Follow_up(21,0)" style="cursor:pointer;" class="btn btn-sm btn-danger"><i class="fa fa-flag"></i></span><span onclick="approveRejectVideo(21,1)" style="cursor:pointer;float:right" class="btn btn-sm btn-success"> <i class="fa fa-thumbs-up"></i></span><span onclick="approveRejectVideo(21,2)" style="cursor:pointer;float:right" class="btn btn-sm btn-danger"> <i class="fa fa-thumbs-down"><!--</span--></i></span></td></tr><tr role="row" class="odd"><td>9</td><td>Anu</td><td>anutilawat9394@gmail.com</td><td>0954981548</td><td><span>Gernal</span></td><td>127.0.0.1</td><td class="sorting_1">October 29, 2021</td><td><a title="Delete Inquiry" class="delete btn btn-sm btn-danger" onclick="return confirm(&#39;Do you want to delete ?&#39;)" href="http://localhost/Naksh_Website/admin/inquiry/delete/22"> <i class="fa fa-trash"></i></a><span onclick="Follow_up(22,1)" style="cursor:pointer;" class="btn btn-sm btn-success"><i class="fa fa-flag"></i></span><br><span onclick="Follow_up(22,0)" style="cursor:pointer;" class="btn btn-sm btn-danger"><i class="fa fa-flag"></i></span><span onclick="approveRejectVideo(22,1)" style="cursor:pointer;float:right" class="btn btn-sm btn-success"> <i class="fa fa-thumbs-up"></i></span><span onclick="approveRejectVideo(22,2)" style="cursor:pointer;float:right" class="btn btn-sm btn-danger"> <i class="fa fa-thumbs-down"><!--</span--></i></span></td></tr><tr role="row" class="even"><td>10</td><td>Anu</td><td>anutilawat9394@gmail.com</td><td>0954981548</td><td><span>Gernal</span></td><td>127.0.0.1</td><td class="sorting_1">October 29, 2021</td><td><a title="Delete Inquiry" class="delete btn btn-sm btn-danger" onclick="return confirm(&#39;Do you want to delete ?&#39;)" href="http://localhost/Naksh_Website/admin/inquiry/delete/23"> <i class="fa fa-trash"></i></a><span onclick="Follow_up(23,1)" style="cursor:pointer;" class="btn btn-sm btn-success"><i class="fa fa-flag"></i></span><br><span onclick="Follow_up(23,0)" style="cursor:pointer;" class="btn btn-sm btn-danger"><i class="fa fa-flag"></i></span><span onclick="approveRejectVideo(23,1)" style="cursor:pointer;float:right" class="btn btn-sm btn-success"> <i class="fa fa-thumbs-up"></i></span><span onclick="approveRejectVideo(23,2)" style="cursor:pointer;float:right" class="btn btn-sm btn-danger"> <i class="fa fa-thumbs-down"><!--</span--></i></span></td></tr></tbody></table><div id="na_datatable_processing" class="dataTables_processing card" style="display: none;">Processing...</div></div></div><div class="row"><div class="col-sm-12 col-md-5"><div class="dataTables_info" id="na_datatable_info" role="status" aria-live="polite">Showing 11 to 20 of 41 entries</div></div><div class="col-sm-12 col-md-7"><div class="dataTables_paginate paging_simple_numbers" id="na_datatable_paginate"><ul class="pagination"><li class="paginate_button page-item previous" id="na_datatable_previous"><a href="http://localhost/Naksh_Website/admin/inquiry#" aria-controls="na_datatable" data-dt-idx="0" tabindex="0" class="page-link">Previous</a></li><li class="paginate_button page-item "><a href="http://localhost/Naksh_Website/admin/inquiry#" aria-controls="na_datatable" data-dt-idx="1" tabindex="0" class="page-link">1</a></li><li class="paginate_button page-item active"><a href="http://localhost/Naksh_Website/admin/inquiry#" aria-controls="na_datatable" data-dt-idx="2" tabindex="0" class="page-link">2</a></li><li class="paginate_button page-item "><a href="http://localhost/Naksh_Website/admin/inquiry#" aria-controls="na_datatable" data-dt-idx="3" tabindex="0" class="page-link">3</a></li><li class="paginate_button page-item "><a href="http://localhost/Naksh_Website/admin/inquiry#" aria-controls="na_datatable" data-dt-idx="4" tabindex="0" class="page-link">4</a></li><li class="paginate_button page-item "><a href="http://localhost/Naksh_Website/admin/inquiry#" aria-controls="na_datatable" data-dt-idx="5" tabindex="0" class="page-link">5</a></li><li class="paginate_button page-item next" id="na_datatable_next"><a href="http://localhost/Naksh_Website/admin/inquiry#" aria-controls="na_datatable" data-dt-idx="6" tabindex="0" class="page-link">Next</a></li></ul></div></div></div></div>
+      </div>
+    </div>
+  </section>  
+</div>
+
+
+<!-- DataTables -->
+<script src="./Inquirys List - Marwari Masala_files/jquery.dataTables.js"></script>
+<script src="./Inquirys List - Marwari Masala_files/dataTables.bootstrap4.js"></script>
+
+<script>
+  //---------------------------------------------------
+  var table = $('#na_datatable').DataTable( {
+    "processing": true,
+    "serverSide": true,
+    "ajax": "http://localhost/Naksh_Website/admin/inquiry/datatable_json",
+    "order": [[6,'desc']],
+    "columnDefs": [
+    { "targets": 0, "name": "ci_inquiry.id", 'searchable':true, 'orderable':true}, 
+    { "targets": 1, "name": "ci_inquiry.name", 'searchable':true, 'orderable':true},
+    { "targets": 2, "name": "ci_inquiry.mobile", 'searchable':true, 'orderable':true},
+    { "targets": 3, "name": "ci_inquiry.email", 'searchable':true, 'orderable':true},
+    { "targets": 4, "name": "ci_inquiry.inquiry_type", 'searchable':true, 'orderable':true},
+    { "targets": 5, "name": "ip_address", 'searchable':true, 'orderable':true},
+    { "targets": 6, "name": "ci_inquiry.created_at", 'searchable':false, 'orderable':false}, 
+    { "targets": 7, "name": "Action", 'searchable':false, 'orderable':false,'width':'100px'}
+    ]
+  });
+  $("#external-filter").click(function(e) {
+        table.on('preXhr.dt', function(e, settings, data) {
+            var external_search = false;
+            var location_search_added = false; 
+            if ($("#search_inquery_date").val() != "") {              
+                data.inquery_date = $("#search_inquery_date").val();
+                external_search = true
+            }
+            if ($("#search_inqueryfollowup_date").val() != "") {              
+                data.followup_date = $("#search_inqueryfollowup_date").val();
+                external_search = true
+            }
+            
+          
+            if ($("#inquiry_type").val() != 0 ) {
+                data.inquiry_type = $("#inquiry_type").val();
+                external_search = true
+            }
+            if ($("#inquiry_mode").val() != 0 ) {
+                data.inquiry_mode = $("#inquiry_mode").val();
+                external_search = true
+            }
+            
+            data.external_search = external_search;
+        });
+
+        table.draw();
+    });
+
+    $("#external-filter-reset").click(function(e) {       
+        $("#search_inquery_date").val(""); 
+        $("#inquiry_type").val("0");
+        $("#inquiry_mode").val("0");
+        
+        table.on('preXhr.dt', function(e, settings, data) {
+            delete data.external_search;
+            delete data.search_inquery_date; 
+            delete data.inquiry_type;
+            delete data.inquiry_mode;             
+        });
+        table.draw();
+    });
+
+
+
+    function approveRejectVideo(id, is_approved){
+  //alert("hello");
+    var message = "You want to approve this?"
+    if(is_approved==2){
+      var message = "You want to reject this?"
+    }
+    var array = {'id':id,'is_approved':is_approved };
+
+    var confirma = confirm(message);
+
+    if(confirma)
+    {
+       $.ajax({
+                 type: "GET",
+                 url: "http://localhost/Naksh_Website/admin/inquiry/approvereject",
+                 data: array, // serializes the form's elements.
+                 success: function(data)
+                 {   
+                    
+                   $.notify("Changed Successfully", "success");
+                   location.reload();
+                 }
+               });
+    }
+
+  }
+
+  function Follow_up(id, follow_up){
+    //alert("hello");
+
+    var message = "You want to followup?"
+    if(follow_up==0){
+      var message = "You want to Unfollow?"
+    }
+    var array = {'id':id,'follow_up':follow_up };
+
+    var confirma = confirm(message);
+
+    if(confirma)
+    {
+       $.ajax({
+                 type: "GET",
+                 url: "http://localhost/Naksh_Website/admin/inquiry/followup",
+                 data: array, // serializes the form's elements.
+                 success: function(data)
+                 {   
+                    
+                   $.notify("Changed Successfully", "success");
+                   location.reload();
+                 }
+               });
+    }
+
+  }
+</script> 
+
+  <footer class="main-footer">
+    <strong>Copyright © 2021 Naksh Marwari Masala All rights reserved.</strong>
+    <div class="float-right d-none d-sm-inline-block">
+      <b>Developed By:</b> <a href="https://adiyogitechnosoft.com/" target="_blank">Adiyogi Technosoft</a>
+    </div>
+  </footer>
+
+    
+
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+  <div class="p-3"><h5>Customize AdminLTE</h5><hr class="mb-2"><h6>Navbar Variants</h6><div class="d-flex"><div class="d-flex flex-wrap mb-3"><div class="bg-primary elevation-2" style="width: 40px; height: 20px; border-radius: 25px; margin-right: 10px; margin-bottom: 10px; opacity: 0.8; cursor: pointer;"></div><div class="bg-info elevation-2" style="width: 40px; height: 20px; border-radius: 25px; margin-right: 10px; margin-bottom: 10px; opacity: 0.8; cursor: pointer;"></div><div class="bg-success elevation-2" style="width: 40px; height: 20px; border-radius: 25px; margin-right: 10px; margin-bottom: 10px; opacity: 0.8; cursor: pointer;"></div><div class="bg-danger elevation-2" style="width: 40px; height: 20px; border-radius: 25px; margin-right: 10px; margin-bottom: 10px; opacity: 0.8; cursor: pointer;"></div><div class="bg-warning elevation-2" style="width: 40px; height: 20px; border-radius: 25px; margin-right: 10px; margin-bottom: 10px; opacity: 0.8; cursor: pointer;"></div><div class="bg-white elevation-2" style="width: 40px; height: 20px; border-radius: 25px; margin-right: 10px; margin-bottom: 10px; opacity: 0.8; cursor: pointer;"></div><div class="bg-gray-light elevation-2" style="width: 40px; height: 20px; border-radius: 25px; margin-right: 10px; margin-bottom: 10px; opacity: 0.8; cursor: pointer;"></div></div></div><div class="mb-4"><input type="checkbox" value="1" checked="checked" class="mr-1"><span>Navbar border</span></div><h6>Dark Sidebar Variants</h6><div class="d-flex"></div><div class="d-flex flex-wrap mb-3"><div class="bg-primary elevation-2" style="width: 40px; height: 20px; border-radius: 25px; margin-right: 10px; margin-bottom: 10px; opacity: 0.8; cursor: pointer;"></div><div class="bg-warning elevation-2" style="width: 40px; height: 20px; border-radius: 25px; margin-right: 10px; margin-bottom: 10px; opacity: 0.8; cursor: pointer;"></div><div class="bg-info elevation-2" style="width: 40px; height: 20px; border-radius: 25px; margin-right: 10px; margin-bottom: 10px; opacity: 0.8; cursor: pointer;"></div><div class="bg-danger elevation-2" style="width: 40px; height: 20px; border-radius: 25px; margin-right: 10px; margin-bottom: 10px; opacity: 0.8; cursor: pointer;"></div><div class="bg-success elevation-2" style="width: 40px; height: 20px; border-radius: 25px; margin-right: 10px; margin-bottom: 10px; opacity: 0.8; cursor: pointer;"></div></div><h6>Light Sidebar Variants</h6><div class="d-flex"></div><div class="d-flex flex-wrap mb-3"><div class="bg-primary elevation-2" style="width: 40px; height: 20px; border-radius: 25px; margin-right: 10px; margin-bottom: 10px; opacity: 0.8; cursor: pointer;"></div><div class="bg-warning elevation-2" style="width: 40px; height: 20px; border-radius: 25px; margin-right: 10px; margin-bottom: 10px; opacity: 0.8; cursor: pointer;"></div><div class="bg-info elevation-2" style="width: 40px; height: 20px; border-radius: 25px; margin-right: 10px; margin-bottom: 10px; opacity: 0.8; cursor: pointer;"></div><div class="bg-danger elevation-2" style="width: 40px; height: 20px; border-radius: 25px; margin-right: 10px; margin-bottom: 10px; opacity: 0.8; cursor: pointer;"></div><div class="bg-success elevation-2" style="width: 40px; height: 20px; border-radius: 25px; margin-right: 10px; margin-bottom: 10px; opacity: 0.8; cursor: pointer;"></div></div><h6>Brand Logo Variants</h6><div class="d-flex"></div><div class="d-flex flex-wrap mb-3"><div class="bg-primary elevation-2" style="width: 40px; height: 20px; border-radius: 25px; margin-right: 10px; margin-bottom: 10px; opacity: 0.8; cursor: pointer;"></div><div class="bg-info elevation-2" style="width: 40px; height: 20px; border-radius: 25px; margin-right: 10px; margin-bottom: 10px; opacity: 0.8; cursor: pointer;"></div><div class="bg-success elevation-2" style="width: 40px; height: 20px; border-radius: 25px; margin-right: 10px; margin-bottom: 10px; opacity: 0.8; cursor: pointer;"></div><div class="bg-danger elevation-2" style="width: 40px; height: 20px; border-radius: 25px; margin-right: 10px; margin-bottom: 10px; opacity: 0.8; cursor: pointer;"></div><div class="bg-warning elevation-2" style="width: 40px; height: 20px; border-radius: 25px; margin-right: 10px; margin-bottom: 10px; opacity: 0.8; cursor: pointer;"></div><div class="bg-white elevation-2" style="width: 40px; height: 20px; border-radius: 25px; margin-right: 10px; margin-bottom: 10px; opacity: 0.8; cursor: pointer;"></div><div class="bg-gray-light elevation-2" style="width: 40px; height: 20px; border-radius: 25px; margin-right: 10px; margin-bottom: 10px; opacity: 0.8; cursor: pointer;"></div><a href="javascript:void(0)">clear</a></div></div></aside>
+  <!-- /.control-sidebar -->
+
+  
+</div>
+<!-- ./wrapper -->
+
+<!-- jQuery UI 1.11.4 -->
+<script src="./Inquirys List - Marwari Masala_files/jquery-ui.min.js"></script>
+<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+<script>
+  $.widget.bridge('uibutton', $.ui.button)
+</script>
+<!-- Bootstrap 4 -->
+<script src="./Inquirys List - Marwari Masala_files/bootstrap.bundle.min.js"></script>
+<!-- Notify -->
+<script src="./Inquirys List - Marwari Masala_files/notify.js"></script>
+<!-- Slimscroll -->
+<script src="./Inquirys List - Marwari Masala_files/jquery.slimscroll.min.js"></script>
+<!-- FastClick -->
+<script src="./Inquirys List - Marwari Masala_files/fastclick.js"></script>
+<!-- AdminLTE App -->
+<script src="./Inquirys List - Marwari Masala_files/adminlte.js"></script>
+
+<!-- AdminLTE for demo purposes -->
+<script src="./Inquirys List - Marwari Masala_files/demo.js"></script>
+<!-- Validator -->
+<script src="./Inquirys List - Marwari Masala_files/jquery.validate.min.js"></script>
+<script src="./Inquirys List - Marwari Masala_files/additional-methods.min.js"></script>
+
+
+</body></html>

@@ -1,0 +1,26 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /Naksh_Website/ 
+
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteCond %{SCRIPT_FILENAME} !-d
+
+RewriteRule    ^gallery_detail/(.*)$      gallery_detail.php?id=$1 [QSA,L]
+RewriteRule    ^category/(.*)$      category.php?id=$1 [QSA,L]
+RewriteRule    ^gallery/(.*)$      gallery.php?id=$1 [QSA,L]   
+RewriteRule    ^terms/(.*)$      terms.php?id=$1 [QSA,L]  
+RewriteRule    ^index/(.*)$      index.php?id=$1 [QSA,L] 
+RewriteRule    ^contact/(.*)$      contact.php?id=$1 [QSA,L] 
+RewriteRule    ^career/(.*)$      career.php?id=$1 [QSA,L]
+RewriteRule    ^career_detail/(.*)$      career_detail.php?id=$1 [QSA,L] 
+RewriteRule    ^apply_job/(.*)$            apply_job.php?id=$1 [QSA,L] 
+RewriteRule    ^service/(.*)$     service.php?id=$1 [QSA,L]
+RewriteRule    ^product/(.*)$            product.php?id=$1 [QSA,L]
+
+RewriteRule    ^portfolio/(.*)$            portfolio.php?id=$1 [QSA,L]
+RewriteRule    ^portfolio_detail/(.*)$      portfolio_detail.php?id=$1 [QSA,L]
+
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
